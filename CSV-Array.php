@@ -1,3 +1,5 @@
+<?php
+
 class CSVImport{
 
 	private $directory;
