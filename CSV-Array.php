@@ -178,11 +178,15 @@ class CSVImport{
 	     if(
 	     	in_array( $value, $this->includes )
 	     ) {
+				 
 	     	return $dataTitles[$key] = $value;
+				 
 	     }
 
 		 } else {
+				 
 			 return $dataTitles[$key] = $value;
+				 
 		 }
 
    }
